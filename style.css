@@ -1,0 +1,66 @@
+.hiddenid {display: none;}
+div {width:60vw;margin:auto; border: 3px black solid;}
+a:visited { text-decoration: none; color:black;}
+h2 {margin-bottom: 1px;}
+
+
+body {
+background-color: grey;
+color: white;
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+font-family: 'Calibri';
+font-size: large;
+}
+
+table, th, td {
+    border: 1px solid; 
+    background-color: rgba(0, 0, 0, 0.133);
+  }
+
+th {color: black; background-color: rgba(0, 255, 0, 0.581);}
+
+table {min-width: 100%}
+
+.centerDiv {
+    background-color: rgba(255, 255, 255, 0.061);
+    min-height: 80vh;
+  
+}
+
+.interactiveDiv {
+    text-align: center;
+    min-height: 2vh;
+    margin: auto;
+    
+}
+
+
+h2 {
+    background-color: yellow;
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    text-align: center;
+}
+
+#genredith2 { background-color: greenyellow;
+    color: black; }
+
+p {
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+#subMenu { text-align: center; display: flex; justify-content: center;}
+main {
+flex: 1 0 auto;
+}
+
+.centerThis {
+    border: 0px solid; 
+    width: 200px;
+    text-align: left;
+}
